@@ -1,0 +1,11 @@
+{
+  "name": "cosmeticnurseshann",
+  "version": "1.0.0",
+  "description": "website for client cosmeticnurseshann",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jemar morris",
+  "license": "ISC"
+}
