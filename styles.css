@@ -21,7 +21,7 @@ font-style: normal;
 letter-spacing: 0em;
 text-transform: none;
 line-height: 1.4em;
-font-size: 2rem;
+font-size: 2.5rem;
 }
 
 #mainNavigation a {
@@ -93,10 +93,38 @@ a.dropdown-item:hover {
   z-index: 2;
 }
 
+
+.card-text.hero-1-title {
+margin: 1rem 0;
+line-height: 1.5em;
+}
+
+
 .hero1-image {
   position: relative;
   z-index: 1;
 }
+
+.hero-2-image {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-2-title h3 {
+  margin: 1rem 0 !important;
+}
+
+.card-body.hero-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+
+
+
 
 
 /* 
@@ -115,12 +143,37 @@ a.dropdown-item:hover {
   object-fit: cover; /* use object-fit to fill the image within the column */
 }
 
+.button-hero-1 {
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 767px) {
   /* on mobile, make the image take up the entire width of the card */
-  .hero-image {
-    height: 100%;
+  .hero-1-image {
+    height: 50%;
     width: 100%;
   }
+
+  .hero-2-image {
+    height: 50%;
+    width: 100%;
+  }
+
+  .card-text.hero-1-title {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .card-body.hero-1 {
+    text-align: center;
+  }
+  .btn[type="button-hero-1"] {
+    width: 100%;
+  }
+  
+  
 }
 
 .services-body-custom {
@@ -134,7 +187,11 @@ p {
 
 footer {
   background-color: #e8ded4;
-
 }
+
+footer-email {
+  background-color: #e8ded4;
+}
+
 
 
