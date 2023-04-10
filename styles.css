@@ -1,5 +1,4 @@
 /* .container {
-  max-width: 1100px;
   margin: 0 auto;
   overflow: auto;
   padding: 0 40px;
@@ -24,6 +23,13 @@ line-height: 1.4em;
 font-size: 2.5rem;
 }
 
+hr {
+  width: 50%;
+  margin: 10px auto;
+  border: none;
+  border-top: 2px solid black;
+}
+
 #mainNavigation a {
   font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size:14px;
@@ -35,12 +41,7 @@ font-size: 2.5rem;
 .dropdown-menu {
   background:#03727d
 }
-a.dropdown-toggle {
-  color:#dfdfdf !important
-}
-a.dropdown-item:hover {
-  color:#03727d !important
-}
+
 .nav-item a{
   color: black;
 }
@@ -71,6 +72,44 @@ a.dropdown-item:hover {
   background-color: rgba(242, 226, 208, 0.8);
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.container.main {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+/* Define the animation when each container comes into view */
+.container1.animate-1 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.container2.animate-2 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.container3.animate-3 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.container4.animate-4 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 .toggler-menu {
  color: black;
 }
@@ -95,7 +134,7 @@ a.dropdown-item:hover {
 
 
 .card-text.hero-1-title {
-margin: 1rem 0;
+margin: 3rem 0;
 line-height: 1.5em;
 }
 
@@ -121,10 +160,6 @@ line-height: 1.5em;
   align-items: center;
   margin: 1rem;
 }
-
-
-
-
 
 
 /* 
@@ -155,8 +190,8 @@ line-height: 1.5em;
     width: 100%;
   }
 
-  .hero-2-image {
-    height: 50%;
+  .hero-2-image img{
+    max-height: 300px;
     width: 100%;
   }
 
@@ -181,12 +216,55 @@ line-height: 1.5em;
   margin-right: 15px;
 }
 
+/*buttons services */
+@media screen and (min-width: 768px) {
+  /* styles for medium screens and larger */
+  .service-1 {
+    position: relative;
+    /* add padding-bottom equal to button height + 1rem margin */
+    padding-bottom: calc(2.25rem + 1rem);
+  }
+
+  .service-1 .btn {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .service-2 {
+    position: relative;
+    /* add padding-bottom equal to button height + 1rem margin */
+    padding-bottom: calc(2.25rem + 1rem);
+  }
+
+  .service-2 .btn {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .service-3 {
+    position: relative;
+    /* add padding-bottom equal to button height + 1rem margin */
+    padding-bottom: calc(2.25rem + 1rem);
+  }
+
+  .service-3 .btn {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 p {
   font-size: 14px;
 }
 
 footer {
   background-color: #e8ded4;
+  margin-bottom: 50px !important;
 }
 
 footer-email {
@@ -194,4 +272,4 @@ footer-email {
 }
 
 
-
+}
