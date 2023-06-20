@@ -2,10 +2,6 @@
 
 A professional website for Shannea, a personal nutritionist. The website is built with HTML5, CSS3, and Bootstrap 5 for responsive and modern design, with additional JavaScript for dynamic animations.
 
-## Demo
-
-![Demo](demo.gif)
-
 ## Features
 
 - Modern and responsive design
