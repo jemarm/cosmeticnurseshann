@@ -1,24 +1,29 @@
-<p align="center">
-  <h3 align="center">Fit By Shann - Personal Nutritionist Website</h3>
-  <p align="center">
-    This project presents the professional website of Shannea, a personal nutritionist. 
-    <br />
-    <a href="your-live-demo-link"><strong>Explore the live demo »</strong></a>
-    <br />
-    <br />
-    <a href="issues-link">Report a Bug</a>
-    ·
-    <a href="issues-link">Request a Feature</a>
-  </p>
-</p>
+# Fit By Shann - Personal Nutritionist Website
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Dependencies](#dependencies)
-- [Local Development](#local-development)
-- [JavaScript Code Snippet](#javascript-code-snippet)
-- [Credits](#credits)
+A professional website for Shannea, a personal nutritionist. The website is built with HTML5, CSS3, and Bootstrap 5 for responsive and modern design, with additional JavaScript for dynamic animations.
 
-## Overview
-The website is built with HTML5, CSS3, and Bootstrap 5 for responsive and modern design. Additionally, it
+## Demo
+
+![Demo](demo.gif)
+
+## Features
+
+- Modern and responsive design
+- Comprehensive nutrition information
+- Interactive blog section
+- Integrated contact form
+- Dynamic animations for better user experience
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/fit-by-shann.git
